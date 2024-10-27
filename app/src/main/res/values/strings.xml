@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Atv8 Ex1 Ingressos</string>
+    <string name="nome_aluno">Matheus Augusto Marti</string>
+    <string name="ra_aluno">RA: 1110482313017</string>
+    <string name="titulo">Venda de Ingresso</string>
+    <string name="codigo">Código</string>
+    <string name="valor">Valor</string>
+    <string name="taxa">Taxa</string>
+    <string name="vip">Ingresso VIP</string>
+    <string name="comprar">Comprar</string>
+    <string name="voltar">Voltar</string>
+</resources>
