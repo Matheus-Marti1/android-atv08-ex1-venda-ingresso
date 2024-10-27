@@ -24,8 +24,6 @@ import br.edu.fateczl.atv8ex1ingressos.model.IngressoVip;
 
 public class VendaActivity extends AppCompatActivity {
 
-    private Ingresso ingresso;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -45,6 +43,7 @@ public class VendaActivity extends AppCompatActivity {
         Bundle bundle = intent.getExtras();
 
         String tipo = bundle.getString("tipo");
+        Ingresso ingresso;
         if (tipo.equals("vip")){
             ingresso = new IngressoVip();
         } else {

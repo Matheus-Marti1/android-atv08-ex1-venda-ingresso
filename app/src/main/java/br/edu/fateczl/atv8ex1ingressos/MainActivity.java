@@ -25,7 +25,6 @@ public class MainActivity extends AppCompatActivity {
     private EditText etValor;
     private EditText etTaxa;
     private CheckBox cbVip;
-    private Ingresso ingresso;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void comprar() {
         String tipo = "";
+        Ingresso ingresso;
         if(cbVip.isChecked()){
             ingresso = new IngressoVip();
             tipo = "vip";
